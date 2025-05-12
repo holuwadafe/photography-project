@@ -13,7 +13,7 @@ function Contact() {
             <div className='container max-w-4xl mx-auto'>
 
                 <div className='text-[30px] pr-8'>
-                    <h1>Let's Make Magic!</h1>
+                    <h1 className='pb-10'>Let's Make Magic!</h1>
                 </div>
                 <div className='pb-10 line-height-[20px]'>
                     <p> Are you a brand looking to tell your unique stories in the most beautiful way possible

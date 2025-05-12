@@ -10,6 +10,7 @@ import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import Learn from './Pages/Learn'
 import Portfolio from './Pages/Portfolio'
+import DropDown from './component/DropDown'
 // import Home from './Pages/Home'
 
   const router = createBrowserRouter([
@@ -33,10 +34,50 @@ import Portfolio from './Pages/Portfolio'
         {
           path: "blog",
           element: <Blog />,
+          children: [
+            {
+            path: "portraits",
+            element: <Blog/>,
+            },
+            {
+            path: "wedding",
+            element: <Blog/>,
+            },
+            {
+            path: "fashion",
+            element: <Blog/>,
+            },
+            {
+            path: "commercial",
+            element: <Blog/>,
+            },
+            {
+            path: "book-a-season",
+            element: <Blog/>,
+            },
+            {
+            path: "architecture",
+            element: <Blog/>,
+            },
+          ]
         },
         {
           path: "learn",
-          element: <Learn />,
+          // element: <Learn />,
+          children: [
+          {
+           path: "photography",
+           element: <DropDown />,
+          },
+          {
+            path: "lighting-course",
+            element: <DropDown />,
+          },
+          {
+            path: "revealed",
+            element: <DropDown/>,
+          },
+          ]
         },
         {
           path: "contact",

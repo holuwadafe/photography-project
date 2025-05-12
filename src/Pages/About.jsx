@@ -1,6 +1,8 @@
 import React from 'react'
 import camera from '../assets/images/camera.jpg'
 import person1 from '../assets/images/person1.jpg'
+import test1 from '../assets/images/test1.jpg'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
@@ -16,22 +18,22 @@ function About() {
 
       <div className='flex gap-20 mx-width p-20 '>
         <div className=''>
-          <img src={person1} width={600} height={70} alt="me" />
+          <img src={person1} width={400} height={50} alt="me" />
         </div>
 
-        <div className='line-height-[20px] text-left'>
-          <p>Emmanuel Oyeleke, a visual artist, Tech Enthusiast <br />
+        <div className='line-height-[20px] text-left pl-40'>
+          <p className='pb-10'>Emmanuel Oyeleke, a visual artist, Tech Enthusiast <br />
             and the Creative Director of Emmanuel Oyeleke <br />
             Photography.</p>
 
-          <p>Emmanuel Oyeleke is a Canon Ambassador and has <br />
+          <p className='pb-10'>Emmanuel Oyeleke is a Canon Ambassador and has <br />
             won several awards in Nigeria and Africa including <br />
             Future Awards Prize for Photography 2018 and <br />
             The ASFA Fashion Photographer of the year <br />
             (Africa)  2018, Fashions Finest Award for Fashion <br />
             Photographer of the year 2019  and many others.</p>
 
-          <p>His portfolio includes editorials for some of the <br />
+          <p className='pb-10'>His portfolio includes editorials for some of the <br />
             country’s most distinguished designers. Works for <br />
             other brands include Coca Cola, Zaron Cosmetics, <br />
             GTBank, Samsung, Williston Northampton <br />
@@ -41,7 +43,7 @@ function About() {
             Jameson, Absolut, Canon, Tecno Mobile, <br />
             Mitsubishi Motors and UNICEF.</p>
 
-          <p>He is the founder and creative director of Zen <br />
+          <p className='pb-10'>He is the founder and creative director of Zen <br />
             Studios, ZenStudios is a fully equipped photo studio <br />
             and creative workspace located in Ilupeju, Lagos. <br />
             He is also the director of Zen Photographics, a <br />
@@ -58,12 +60,12 @@ function About() {
 
         </div>
       </div>
-      <div className='items-center w-full'>
-        <div>
-          <h1>As featured in</h1>
+      <div className='items-center text-center w-full'>
+        <div className='pb-10'>
+          <h1>AS FEATURED IN</h1>
         </div>
         <div className=''>
-          <ul className='flex gap-5'>
+          <ul className='flex gap-5 pb-15 justify-center'>
             <li>TedX Lagos</li>
             <li>Canon Europe</li>
             <li>CNN Avantgarde</li>
@@ -71,6 +73,18 @@ function About() {
             <li>This Day</li>
           </ul>
         </div>
+        <div className='flex justisfy-center w-full gap-20'>
+          <div className='text-left p-20'>
+            <h1 className='pb-30 font-xl'>Testimonials</h1>
+            <h3>"i'm so happy! Everyone loves my pictures. I <br />
+                really appriciate you. The patience is out of <br />
+                the world. I wanted to play with clothes and i <br />
+                did. God bless you" </h3>
+            <h2 className='pt-10'>-MRS ONABANJO</h2>
+          </div>
+          <div className='pl-40 pb-10'><img src={test1} width={400} height={40} alt='testimg'></img></div>
+        </div>
+          <button className='bg-gray-400 p-3 '><a href="contact">contact</a></button>
       </div>
 
     </>

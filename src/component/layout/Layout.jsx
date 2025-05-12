@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 
 function Layout({ children }) {
     return (
-        <div className="">
+        <div className="transition-all">
             <Navbar />
             <main className=''>
                 <Outlet />

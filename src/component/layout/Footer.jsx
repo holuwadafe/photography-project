@@ -24,10 +24,11 @@ function Footer() {
         </div>
         <hr />
       </div>
-      <div>
-      <h3>All content Copyright © 2025 Emmanuel Oyeleke</h3>
-      <hr />
-    </div>
+      <div className='p-15'>
+        <hr className='pt-6' />
+        <h3 className='pb-6'>All content Copyright © 2025 Emmanuel Oyeleke</h3>
+        <hr className='pb-10' />
+      </div>
     </div>
   )
 }
