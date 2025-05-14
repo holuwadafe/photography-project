@@ -18,8 +18,8 @@ function Navbar() {
                     <li 
                         onMouseEnter={() => setinHover(true)}
                         onMouseLeave={() => setinHover(false)}
-                    >
-                    Portfolio
+                    ><Link to='portfolio'>
+                    Portfolio </Link>
                     {inHover? (<PortDrop />) : ""}
                         </li>
                 </ul>

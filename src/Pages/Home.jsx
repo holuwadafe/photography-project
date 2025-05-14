@@ -52,8 +52,8 @@ function home() {
           }
         </div>
       </div>
-      <div className='text-2xl text-center'>
-      <button className='text-white bg-orange-700 px-2, py-4'>See More Galleries</button> 
+      <div className= 'text-center'>
+      <button className='text-white bg-[#c7b198] hover:bg-[#352f44] p-4'>See More Galleries</button> 
       </div>
     </div>
     

@@ -2,33 +2,33 @@ import React from 'react';
 import MyWorkCardd from '../component/MyWorkCardd';
 
 
-import aboutimg from '../assets/images/aboutimg.jpg';
-import abt1 from "../assets/images/abt1.jpg"
-import abt2 from "../assets/images/abt2.jpg"
-import abt3 from "../assets/images/abt3.jpg"
-import abt4 from "../assets/images/abt4.jpg"
+import wedding from "../assets/images/wedding.jpg"
+import arc from "../assets/images/arc.jpg"
+import portfolio from "../assets/images/portfolio.jpg"
+import port from "../assets/images/port.jpg"
+import fashion from "../assets/images/fashion.jpg"
 
 
 function Portfolio() {
 
   const aboutCard = [
     {
-      "photo": abt1,
+      "photo": wedding,
       "title": "Weddings",
       "quote": "THE BIG DAY",
     },
     {
-      "photo": abt2,
+      "photo": port,
       "title": "Portrait",
       "quote": "BASK IN GREAT LIGHT",
     },
     {
-      "photo": abt3,
+      "photo": fashion,
       "title": "Fashion",
       "quote": "EXPRESS YOURSELF",
     },
     {
-      "photo": abt4,
+      "photo": arc,
       "title": "Architecture",
       "quote": "LIVING STRUCTURES",
     }
@@ -37,7 +37,7 @@ function Portfolio() {
   return (
     <>
       <div className="h-screen w-full bg-cover flex justify-center items-center "
-        style={{ backgroundImage: `url(${aboutimg})` }}>
+        style={{ backgroundImage: `url(${portfolio})` }}>
         <div className='text-white text-[30px]'>
           <h1>My Portfolio</h1>
         </div>

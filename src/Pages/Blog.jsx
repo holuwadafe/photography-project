@@ -16,7 +16,7 @@ function Blog() {
   return (
     <>
       <div>
-        <div className='items-center text-center p-20'>
+        <div className='items-center text-center p-20 bg-[#fcfefe]'>
           <p>Welcome to my humble corner of the internet! I am thrilled to embark on this new blogging adventure, <br />
             where words find their rhythm and ideas come alive. Here, I'll explore a world of thoughts, reflections, and <br />
             where words find their rhythm and ideas come alive. Here, I'll explore a world of thoughts, reflections, and <br />
